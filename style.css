@@ -124,14 +124,8 @@ section {
         border-radius: 10px;
     }
 
-    /* .product-img .img {
-        background-image: url("./images/image-product-mobile.jpg");
-        background-position: center;
-        background-size: cover;
-        height: auto;
-        width: 100%;
-        flex-grow: 1;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-    } */
+    .product-img img {
+        height: 400px;
+        object-fit: cover;
+    }
   }
